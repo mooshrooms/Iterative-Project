@@ -58,6 +58,7 @@
     />
   </head>
   <body>
+      <form>
       <link rel="stylesheet" href="./style.css" />
       <div>
           <link href="./index.css" rel="stylesheet" />
@@ -107,33 +108,27 @@
                           </span>
                           <span class="mac-book-air1-text14">
                               <span>Time end</span>
-                              <form id="time-end" style="position: relative; padding-top: 3px; padding-left: 1px;">
                                   <input type="text" name="text" id="end" placeholder="dd.mm.yyyy" style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 200px;">
-                               </form>
                           </span>
                           <span class="mac-book-air1-text16">
                               <span>Max results</span>
-                              <form id="results" style="position: relative; padding-top: 3px; padding-left: 1px;">
                                   <input type="text" name="text" id="num_results" placeholder="Type here..." style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 180px;">
-                                </form>
                           </span>
                           <span class="mac-book-air1-text18">
                               <span>Time start</span>
-                              <form id="start" style="position: relative; padding-top: 3px; padding-left: 1px;">
-                                  <input type="text" name="text" id="time_start" placeholder="dd.mm.yyyy"  style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 200px;">
-                              </form>
+                                  <input type="text" name="text" id="time_start" placeholder="dd.mm.yyyy" style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 200px;">
                           </span>
+
                           <span class="mac-book-air1-text20">
-                            <input name="OKButton" value="Submit?" type="button"/>
-                        </span>
-                        <span class="mac-book-air1-text22">
-                            <input name="ResetButton" value="Reset?" type="button"/>
-                        </span>
-                          <div class="mac-book-air1-frame1">
-                              <form id="city" style="padding-top: 35px; padding-left: 15px; padding-bottom: 15px;">
+                              <input name="OKButton" value="Submit?" type="submit"/>
+                          </span>
+                          <span class="mac-book-air1-text22">
+                              <input name="ResetButton" value="Reset?" type="button"/>
+                          </span>
+                          <div class="mac-book-air1-frame1">   
+                              <span class="mac-book-air1-text24"><span>City</span>
                                   <input type="text" name="text" class="name" placeholder="Type here..." style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 180px;">
-                              </form>
-                              <span class="mac-book-air1-text24"><span>City</span></span>
+                              </span>
                           </div>
                       </div>
                   </div>
@@ -148,5 +143,6 @@
               </div>
           </div>
       </div>
+     </form>
   </body>
 </html>
