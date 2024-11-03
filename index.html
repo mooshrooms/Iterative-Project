@@ -94,34 +94,33 @@
                                class="mac-book-air1-rectangle26" />
                           <span class="mac-book-air1-text12">
                               <span>Business Line</span>
-                              <div class="select">
-                                <select id="standard-select" style="padding-top: 10px; padding-right: 0px; width: 280px; height: 45px; border-radius: 5px;padding-bottom: 10px;">
-                                    <option value="Option 1">OP Bank</option>
-                                    <option value="Option 2">Danske Bank</option>
-                                    <option value="Option 3">S-Pankki</option>
-                                    <option value="Option 4">DNA</option>
-                                    <option value="Option 5">Elisa</option>
-                                    <option value="Option length">Option that has too long of a value to fit</option>
-                                </select>
-                                <span class="focus"></span>
-                            </div>
+                                <div class="select">
+                                    <select id="standard-select" style="padding-top: 20px; padding-right: 0px; width: 280px; height: 50px; border-radius: 5px;padding-bottom: 10px;">
+                                        <option value="Option 1">OP Bank</option>
+                                        <option value="Option 2">Danske Bank</option>
+                                        <option value="Option 3">S-Pankki</option>
+                                        <option value="Option 4">DNA</option>
+                                        <option value="Option 5">Elisa</option>
+                                        <option value="Option length">Option that has too long of a value to fit</option>
+                                    </select>
+                                </div>
                           </span>
                           <span class="mac-book-air1-text14">
                               <span>Time end</span>
-                              <form class="time-end" style="position: relative; padding-top: 3px; padding-left: 1px;">
-                                  <input type="text" name="text" class="input" placeholder="dd.mm.yyyy" style="padding-right: 0px; width: 200px;">
+                              <form id="time-end" style="position: relative; padding-top: 3px; padding-left: 1px;">
+                                  <input type="text" name="text" id="end" placeholder="dd.mm.yyyy" style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 200px;">
                                </form>
                           </span>
                           <span class="mac-book-air1-text16">
                               <span>Max results</span>
-                              <form class="results" style="position: relative; padding-top: 3px; padding-left: 1px;">
-                                  <input type="text" name="text" class="input" placeholder="Type here..." style="padding-right: 0px; width: 180px;">
+                              <form id="results" style="position: relative; padding-top: 3px; padding-left: 1px;">
+                                  <input type="text" name="text" id="num_results" placeholder="Type here..." style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 180px;">
                                 </form>
                           </span>
                           <span class="mac-book-air1-text18">
                               <span>Time start</span>
-                              <form class="time-start" style="position: relative; padding-top: 3px; padding-left: 1px;">
-                                  <input type="text" name="text" class="input" placeholder="dd.mm.yyyy" style="padding-right: 0px; width: 200px;">
+                              <form id="start" style="position: relative; padding-top: 3px; padding-left: 1px;">
+                                  <input type="text" name="text" id="time_start" placeholder="dd.mm.yyyy"  style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 200px;">
                               </form>
                           </span>
 
@@ -131,11 +130,10 @@
                           <span class="mac-book-air1-text22"><span>Reset?</span></span>
                           <div class="mac-book-air1-frame1">
                               <form id="city" style="padding-top: 35px; padding-left: 15px; padding-bottom: 15px;">
-                                  <input type="text" name="text" class="input" placeholder="Type here..." style="padding-right: 0px;">
+                                  <input type="text" name="text" class="name" placeholder="Type here..." style="border-radius: 5px; padding-top: 20px; padding-right: 0px; width: 180px;">
                               </form>
                               <span class="mac-book-air1-text24"><span>City</span></span>
                           </div>
-                          <div class="mac-book-air1-frame7"></div>
                       </div>
                   </div>
                   <div class="mac-book-air1-footer1">
@@ -145,11 +143,6 @@
                       <span class="mac-book-air1-text26">
                           <span>testing testing</span>
                       </span>
-                  </div>
-                  <div class="mac-book-air1-frame6"></div>
-                  <div class="mac-book-air1-frame3"></div>
-                  <div class="mac-book-air1-frame2">
-                      <div class="mac-book-air1-frame8"></div>
                   </div>
               </div>
           </div>
